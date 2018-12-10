@@ -43,7 +43,7 @@ body {
 }
 
 .header p {
-   font-family: 'Raleway SemiBold', sans-serif;
+   font-family: 'Raleway Light', sans-serif;
    font-size: 36px;
    position: relative;
    top: 160px;
@@ -125,14 +125,14 @@ body {
    position: absolute;
    width: 320px;
    top: 800px;
-   right: 100px;
+   right: 200px;
 }
 
 #feature-bottom-right {
    position: absolute;
    width: 320px;
    top: 900px;
-   right: 100px;
+   right: 200px;
 }
 
 .features > div > p {
@@ -175,10 +175,15 @@ body {
    width: 540px;
 }
 
+/* #cursor-get {
+   position: relative;
+   top: 1270px;
+   left: 200px;
+} */
 .get.text img:nth-child(4) {
    position: absolute;
    top: 1270px;
-   left: 100px;
+   left: 50px;
 }
 
 #vid {
@@ -215,11 +220,16 @@ body {
 
 .testimonials p:nth-child(2) {
    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 700;
    font-size: 14px;
    position: relative;
    top: 150px;
    left: 50px;
    /* padding: 20px; */
+}
+
+strong {
+   font-weight: 900;
 }
 
 #people-img {
@@ -230,14 +240,20 @@ body {
 #active {
    position: absolute;
    top: 1880px;
-   right: 495px;
+   right: 550px;
 }
 
-#cursor {
+#cursor-people {
    position: absolute;
    top: 1900px;
-   right: 500px;
+   right: 550px;
 }
+
+/* #cursor-get {
+   position: absolute;
+   top: 200px;
+   left: 1500px;
+} */
 
 .get-in-touch {
    text-align: center;
@@ -276,5 +292,4 @@ footer p {
    display: inline-flex;
    padding: 20px;
    right: 300px;
-   /* left: 500px; */
 }
